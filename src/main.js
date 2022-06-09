@@ -5,7 +5,7 @@ import Root from './App.vue'
 const app = createApp(Root)
 
 app.use(urql, {
-    url: 'http://localhost:8055/graphql',
+    url: 'http://38.242.229.113:8055/graphql',
 });
 
 app.mount('#app')
